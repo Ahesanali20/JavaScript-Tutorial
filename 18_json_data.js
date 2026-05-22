@@ -1,5 +1,8 @@
 // ===== JSON & DATA MANIPULATION =====
 
+// What is JSON?
+// -> JSON (JavaScript Object Notation) is a lightweight data format used for data exchange. It's based on JavaScript object syntax but language-independent. Methods: JSON.stringify() (object to string) and JSON.parse() (string to object).
+
 // JSON.stringify() - convert object to JSON string
 console.log("--- JSON.STRINGIFY ---");
 

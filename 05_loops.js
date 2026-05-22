@@ -1,5 +1,8 @@
 // ===== LOOPS (FOR, WHILE, DO-WHILE, FOR-OF, FOR-IN) =====
 
+// What are Loops?
+// -> Loops are used to repeat a block of code multiple times. Types include: for loop (count-based), while loop (condition-based), for-of loop (iterate over values), and for-in loop (iterate over keys).
+
 // for loop
 console.log("--- FOR LOOP ---");
 for (let i = 1; i <= 5; i++) {

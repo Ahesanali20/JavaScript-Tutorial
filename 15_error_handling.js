@@ -1,5 +1,8 @@
 // ===== ERROR HANDLING =====
 
+// What is Error Handling?
+// -> Error handling is the practice of anticipating and gracefully handling errors that may occur during program execution. Uses try-catch-finally blocks and throw statements to manage errors.
+
 // Try-catch block
 console.log("--- TRY-CATCH ---");
 

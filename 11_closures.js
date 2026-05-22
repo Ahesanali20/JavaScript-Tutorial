@@ -1,5 +1,8 @@
 // ===== CLOSURES =====
 
+// What is a Closure?
+// -> A closure is a function that has access to variables from its outer (parent) scope, even after the parent function has finished executing. This allows data to be encapsulated and remembered.
+
 // Closure - Function that remembers variables from outer scope
 function outer() {
   const message = "Hello"; // Outer variable

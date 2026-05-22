@@ -1,5 +1,8 @@
 // ===== ARRAY METHODS (MAP, FILTER, REDUCE, FOREACH) =====
 
+// What are Array Methods?
+// -> Array methods are built-in functions that operate on arrays. Common methods: map() (transform), filter() (select), reduce() (combine), forEach() (iterate), find(), includes(), slice(), etc.
+
 const numbers = [1, 2, 3, 4, 5];
 
 // map() - transforms each element

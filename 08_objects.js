@@ -1,5 +1,8 @@
 // ===== OBJECTS =====
 
+// What is an Object?
+// -> An object is a collection of key-value pairs (properties and methods). Objects are used to store related data and functionality. Example: {name: 'Raj', age: 25, city: 'Mumbai'}.
+
 // Object declaration
 const person = {
   name: "Raj",

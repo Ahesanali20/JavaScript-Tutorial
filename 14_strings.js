@@ -1,5 +1,8 @@
 // ===== STRING MANIPULATION =====
 
+// What is a String?
+// -> A string is a sequence of characters used to represent text. Strings are immutable in JavaScript and can be manipulated using methods like slice(), substring(), toUpperCase(), toLowerCase(), split(), etc.
+
 // String basics
 console.log("--- STRING BASICS ---");
 const str = "Hello JavaScript";

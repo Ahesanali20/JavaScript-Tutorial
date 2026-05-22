@@ -1,5 +1,11 @@
 // ===== ADVANCED CONCEPTS =====
 
+// What is Destructuring?
+// -> Destructuring is a convenient way to extract values from arrays or properties from objects and assign them to variables in a single statement. Example: const {name, age} = person;
+
+// What is Spread Operator?
+// -> The spread operator (...) allows an iterable (array, string) to be expanded where zero or more elements are expected. Used for copying arrays, merging objects, and function arguments.
+
 // Destructuring Objects
 console.log("--- DESTRUCTURING OBJECTS ---");
 const user = {

@@ -1,5 +1,8 @@
 // ===== ARRAYS =====
 
+// What is an Array?
+// -> An array is an ordered collection of elements stored in a single variable. Arrays can hold any data type and are accessed by index starting from 0. Example: [1, 2, 3] or ['a', 'b', 'c'].
+
 // Array declaration
 const fruits = ["Apple", "Banana", "Mango"];
 console.log("Fruits:", fruits);

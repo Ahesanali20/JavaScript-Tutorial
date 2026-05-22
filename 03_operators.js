@@ -1,5 +1,8 @@
 // ===== OPERATORS =====
 
+// What are Operators?
+// -> Operators are symbols that perform operations on variables and values. Types include arithmetic (+, -, *, /), comparison (===, !==, >, <), logical (&&, ||, !), and assignment (=).
+
 // Arithmetic Operators
 const a = 10;
 const b = 3;

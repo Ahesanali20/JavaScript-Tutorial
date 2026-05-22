@@ -1,5 +1,11 @@
 // ===== PROMISES & ASYNC-AWAIT =====
 
+// What is a Promise?
+// -> A promise is an object that represents the eventual completion (or failure) of an asynchronous operation and its value. States: pending, fulfilled, or rejected. Used for cleaner async code than callbacks.
+
+// What is Async-Await?
+// -> Async-await is modern syntax for handling promises. It makes asynchronous code look and behave more like synchronous code, improving readability and making error handling easier.
+
 // Promise - for handling async operations
 console.log("--- PROMISES ---");
 

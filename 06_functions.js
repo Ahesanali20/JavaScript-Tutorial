@@ -1,5 +1,8 @@
 // ===== FUNCTIONS =====
 
+// What is a Function?
+// -> A function is a reusable block of code that performs a specific task. Functions can accept parameters and return values. They help organize code and avoid repetition.
+
 // Function declaration
 function greet(name) {
   console.log("Hello, " + name);

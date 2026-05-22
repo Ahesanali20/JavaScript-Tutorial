@@ -1,5 +1,8 @@
 // ===== CONDITIONALS (IF-ELSE, SWITCH) =====
 
+// What are Conditionals?
+// -> Conditionals are statements that execute different code based on whether a condition is true or false. Examples: if-else, switch, ternary operator. They control the flow of a program.
+
 // if-else statement
 const age = 20;
 

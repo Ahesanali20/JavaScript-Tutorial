@@ -1,5 +1,8 @@
 // ===== THIS KEYWORD & CONTEXT =====
 
+// What is 'this'?
+// -> 'this' is a special keyword that refers to the object it belongs to. Its value depends on the context: in global scope it refers to the global object, in a method it refers to the parent object, in a function it refers to undefined (strict mode).
+
 // Understanding 'this'
 console.log("--- THIS IN DIFFERENT CONTEXTS ---");
 

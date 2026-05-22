@@ -1,5 +1,11 @@
 // ===== VARIABLES & DATA TYPES =====
 
+// What is a Variable?
+// -> A variable is a named storage location that holds a value. In JavaScript, variables are declared using var, let, or const. Let is the most commonly used.
+
+// What are Data Types?
+// -> Data types specify what kind of data a variable can hold: numbers, strings, booleans, objects, null, undefined, symbols, and BigInt.
+
 // var (old way - avoid using)
 var name = "Raj";
 

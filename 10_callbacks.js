@@ -1,5 +1,11 @@
 // ===== CALLBACKS & HIGHER-ORDER FUNCTIONS =====
 
+// What is a Callback?
+// -> A callback is a function passed as an argument to another function. It gets executed later, often after an asynchronous operation completes. Callbacks are fundamental to handling async operations.
+
+// What is a Higher-Order Function?
+// -> A higher-order function is a function that takes another function as a parameter or returns a function. They enable functional programming patterns like map, filter, and reduce.
+
 // Callback - Function passed as argument
 function greet(name, callback) {
   console.log("Hello, " + name);

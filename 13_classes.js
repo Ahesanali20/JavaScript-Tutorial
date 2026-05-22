@@ -1,5 +1,8 @@
 // ===== ES6 CLASSES =====
 
+// What is a Class?
+// -> A class is a blueprint for creating objects with predefined properties and methods. Introduced in ES6, classes provide a cleaner syntax than constructor functions and support inheritance.
+
 // Basic class
 class Animal {
   constructor(name, species) {
