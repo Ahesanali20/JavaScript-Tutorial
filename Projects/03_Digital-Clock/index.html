@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #212121;
+      color: white;
+      min-height: 100vh;
+    }
+
+    nav {
+      background: #f5f5f5;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black;
+      border: 1px solid #666;
+      padding: 10px 30px;
+      margin: 0 10px;
+      border-radius: 4px;
+      background: white;
+    }
+
+    .center {
+      height: calc(100vh - 70px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+    }
+
+    #banner {
+      font-size: 20px;
+    }
+
+    #clock {
+      width: 220px;
+      height: 70px;
+      background: orange;
+      color: black;
+      border-radius: 10px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-size: 28px;
+      font-weight: bold;
+    }
+  </style>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="https://www.youtube.com/@chaiaurcode" target="_blank">
+        Youtube channel
+      </a>
+    </nav>
+
+    <div class="center">
+      <div id="banner">
+        <span>Your local time</span>
+      </div>
+
+      <div id="clock"></div>
+    </div>
+
+    <script>
+      const clock = document.querySelector("#clock");
+
+      setInterval(() => {
+        let date = new Date();
+        // console.log(date.toLocaleTimeString());
+        clock.innerHTML = date.toLocaleTimeString();
+      }, 1000);
+    </script>
+  </body>
+</html>
